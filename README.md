@@ -1,2 +1,2 @@
-# Torneios-Maratonas
+# Competições-Maratonas
 Competições de programação
