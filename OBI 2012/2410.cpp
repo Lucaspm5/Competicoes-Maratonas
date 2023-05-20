@@ -1,5 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 typedef struct
 {
@@ -8,6 +9,8 @@ typedef struct
 
 int main()
 {
+    ios::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+    
     int N;
 
     scanf("%d", &N);
@@ -37,11 +40,11 @@ int main()
 
     for (int i = 0;i < maior + 1;i++)
     {
-        if (validar[i].cont == 1)
+        if (validar[i].cont >= 1)
             soma++;
     }
 
-    printf("\n%d\n",soma);
+    printf("%d\n",soma);
 
     free(validar);
 
